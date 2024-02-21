@@ -1,0 +1,15 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: gray;
+
+    .item {
+        width: 50%;
+        padding: 10px;
+    }
+}
