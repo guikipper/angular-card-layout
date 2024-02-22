@@ -7,6 +7,9 @@ import { BalanceCardComponent } from './components/balance-card/balance-card.com
 import { CreditCardComponent } from './components/credit-card/credit-card.component';
 import { DebitCardComponent } from './components/debit-card/debit-card.component';
 import { ClientInfosCardComponent } from './components/client-infos-card/client-infos-card.component';
+import { CardItemComponent } from './components/card-item/card-item.component';
+import { DividingLineComponent } from './components/dividing-line/dividing-line.component';
+import { CardTitleComponent } from './components/card-title/card-title.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { ClientInfosCardComponent } from './components/client-infos-card/client-
     BalanceCardComponent,
     CreditCardComponent,
     DebitCardComponent,
-    ClientInfosCardComponent
+    ClientInfosCardComponent,
+    CardItemComponent,
+    DividingLineComponent,
+    CardTitleComponent
   ],
   imports: [
     BrowserModule,
